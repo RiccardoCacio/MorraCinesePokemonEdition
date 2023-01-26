@@ -1,0 +1,177 @@
+body{
+    background-color: beige;
+}
+@font-face {
+    font-family: 'thepokemonone';
+    src: url('pokemon/Pokemon\ Hollow.ttf');
+   
+
+}
+@font-face {
+    font-family: 'thepokemontwo';
+    src: url('pokemon/Pokemon\ Solid.ttf');
+   
+
+}
+/*/startTitle/*/
+.title{
+    text-align: center;
+    font-family: 'thepokemonone';
+    font-size: 25px;
+}
+@media only screen and (max-width: 960px) {
+    .title{
+   
+        font-size: 14px;
+    }
+  }
+#fire{
+color: rgb(243, 70, 70);
+}
+#water{
+   color: rgb(64, 147, 255); 
+}
+#grass{
+    color: rgb(69, 228, 125);
+}
+.titleTwo{
+    font-family: 'thepokemonone';
+    color: rgb(228, 228, 48);
+}
+/*/endTitle/*/
+
+/*/startPokemonSelection/*/
+.firstchoice{
+    display: flex;
+    justify-content: space-around;
+}
+#buttonFire{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#buttonWater{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#buttonGrass{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#elementsImgFire{
+    height: 180px;
+}
+@media only screen and (max-width: 960px) {
+    #elementsImgFire{
+        height: 90px;
+    }
+  }
+#elementsImgGrass{
+    height: 180px;
+}
+@media only screen and (max-width: 960px) {
+    #elementsImgGrass{
+        height: 90px;
+    }
+  }
+#elementsImgWater{
+    height: 180px;
+}
+@media only screen and (max-width: 960px) {
+    #elementsImgWater{
+        height: 90px;
+    }
+  }
+/*/endPokemonSelection/*/
+#choiseBox{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+#playerChoise{
+    font-family: 'thepokemonone';
+    color: rgb(64, 147, 255); 
+    font-size: 30px;
+}
+@media only screen and (max-width: 960px) {
+    #playerChoise{
+        font-size: 25px;
+    }
+  }
+#computerChoise{
+    font-family: 'thepokemonone';
+    color: rgb(243, 70, 70);
+    font-size: 30px;
+}
+@media only screen and (max-width: 960px) {
+    #computerChoise{
+        font-size: 25px;
+    }
+  }
+#playerSelectionBox{
+    display: flex;
+    justify-content: space-between;
+   margin-top: -80px;
+}
+@media only screen and (max-width: 960px) {
+    #playerSelectionBox{
+        margin-top: 10px;
+    }
+  }
+#choiseP{
+display: flex;
+justify-content:left ;
+margin-left: 50px;
+margin-top: 90px;
+}
+@media only screen and (max-width: 960px) {
+    #choiseP{
+        margin-left: 0px;
+    }
+  }
+#choiseC{
+    display: flex;
+    justify-content:left ;
+    margin-right: 50px;
+    margin-top: 90px;
+    }
+    @media only screen and (max-width: 960px) {
+        #choiseC{
+            margin-right: 0px;
+        }
+      }
+    #theWinnerIs{
+        margin-top:  30px; ;
+        text-align: center;
+    }
+
+    #result{
+        font-size: 30px;
+        font-family: 'thepokemonone';
+        color: rgb(236, 201, 2);
+        font-size: 35px;
+        font-weight: bold;
+    }
+    @media only screen and (max-width: 960px) {
+        #result{
+            font-size: 30px;
+        }
+      }
+    #restart{
+        display:none;
+        cursor: pointer;
+        height: 85px;
+        width: 190px;
+        border-radius: 20px;
+        font-weight: 800;
+        font-size: 20px;
+        background-image: url(pikachu.png);
+        background-position-x:-3px ;
+        background-position-y:-40px ;
+        background-size: 200px;
+    }
